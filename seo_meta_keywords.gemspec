@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |s|
   s.name          = "seo_meta_keywords"
-  s.version       = '0.0.1'
+  s.version       = '1.0.0'
   s.authors       = ["Fernando Aleman"]
   s.email         = ["fernandoaleman@mac.com"]
   s.description   = 'Adds meta keywords back into seo_meta'
   s.summary       = 'Adds meta keywords back into seo_meta'
-  s.homepage      = ""
+  s.homepage      = "https://github.com/fernandoaleman/seo_meta_keywords"
   s.license       = "MIT"
 
   s.files         = `git ls-files`.split($/)
