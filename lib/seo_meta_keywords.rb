@@ -1,5 +1,6 @@
 require 'seo_meta'
 require 'decorators'
+require 'deface'
 
 module SeoMetaKeywords
   include SeoMeta

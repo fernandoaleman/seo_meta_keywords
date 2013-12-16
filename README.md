@@ -1,7 +1,6 @@
 # SEO Meta Tags Keywords
 
-This gem is an extension to [seo_meta](https://github.com/parndt/seo_meta) which
-adds meta keywords back in to meta tags.
+This gem is an extension to [seo_meta](https://github.com/parndt/seo_meta) which adds meta keywords back in to meta tags.
 
 ## Installation
 
@@ -25,12 +24,10 @@ rake db:migrate
 
 ## Usage
 
-Add this line into the `<head>` section of your site:
+The following line will be added to the `<head>` section after the `<title>` tag:
 
 ```ruby
 <%= raw %(<meta name="keywords" content="#{@meta.meta_keywords}" />) if @meta.meta_keywords.present? -%>
 ```
-
-If using [RefineryCMS](http://refinerycms.com), the `app/views/refinery/_head.html.erb` template has already been included which adds the meta keywords into the head section.
 
 For documentation, please refer to the [seo_meta](https://github.com/parndt/seo_meta) gem.
