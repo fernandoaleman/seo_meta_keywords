@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |s|
   s.name          = "seo_meta_keywords"
-  s.version       = '1.1.0'
+  s.version       = '1.2.0'
   s.authors       = ["Fernando Aleman"]
   s.email         = ["fernandoaleman@mac.com"]
   s.description   = 'Adds meta keywords back into seo_meta'
