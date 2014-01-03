@@ -1,4 +1,4 @@
-# SEO Meta Tags Keywords
+# SEO Meta Keywords
 
 This gem is an extension to [seo_meta](https://github.com/parndt/seo_meta) which adds meta keywords back in to meta tags.
 
