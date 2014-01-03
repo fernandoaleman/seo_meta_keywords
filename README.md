@@ -26,7 +26,7 @@ rake db:migrate
 
 The following line will be added to the `<head>` section after the `<title>` tag:
 
-```ruby
+```erb
 <%= raw %(<meta name="keywords" content="#{@meta.meta_keywords}" />) if @meta.meta_keywords.present? -%>
 ```
 
